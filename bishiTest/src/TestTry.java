@@ -23,5 +23,8 @@ public class TestTry
 		System.out.print(System.getProperties());
 		System.out.print(System.getProperty("user.dir"));
 		//System.out.print(getss());
+		
+		
+		
 	}
 }
