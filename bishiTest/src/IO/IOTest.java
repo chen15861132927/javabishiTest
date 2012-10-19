@@ -43,10 +43,15 @@ public class IOTest
 				if (bytedata == -1)
 					break;
 				out.write(bytedata);
+				
+				
+				
+				
 			}
 		} finally
 		{
 			if (in != null)
+				
 				in.close();
 			if (out != null)
 				out.close();
